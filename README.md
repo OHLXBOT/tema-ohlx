@@ -1,8 +1,3 @@
-<h1 align="center"> 
-    Pterodactyl-AutoThemes
-</h1>
-</br>
-
 <h1 align="center">Support</h1>
 
 If you have any problems with the script, ask for support in our official group [Pterodacyl-AutoThemes Support]([https://discord.gg/buDBbSGJmQ](https://chat.whatsapp.com/F3TrxHAlsFo9pY5Gq1InE2))
