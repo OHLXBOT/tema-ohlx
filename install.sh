@@ -80,8 +80,8 @@ echo
 print_brake 70
 echo "* Pterodactyl otomatis tema Script Versi 1.11.3"
 echo
-echo "* Copyright (C) 2023 , OHLX BOT"
-echo "*  https://youtube.com/@OHLXBOT1"
+echo "*  TEMA By : OHLX BOT"
+echo "*  YOURUBE : https://youtube.com/@OHLXBOT1"
 
 echo
 echo "* Script ini gratis mohon jangan di jual beli kan."
