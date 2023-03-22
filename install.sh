@@ -89,7 +89,7 @@ print_brake 70
 echo
 
 Ohlx() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/Dracula/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/OHLXBOT/tema-ohlx/main/TEMA/install-tema.sh)
 }
 
 
