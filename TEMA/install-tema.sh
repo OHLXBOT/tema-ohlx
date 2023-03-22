@@ -177,9 +177,9 @@ download_files() {
 print "Downloading files..."
 
 mkdir -p $PTERO/temp
-curl -sSLo $PTERO/temp/Ohlx.tar.gz https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/Dracula/Dracula.tar.gz
-tar -xzvf $PTERO/temp/Ohlx.tar.gz -C $PTERO/temp
-cp -rf -- $PTERO/temp/Ohlx/* $PTERO
+curl -sSLo $PTERO/temp/OHLX.tar.gz https://raw.githubusercontent.com/ohlxbot/tema-ohlx/TEMA/OHLX.tar.gz
+tar -xzvf $PTERO/temp/OHLX.tar.gz -C $PTERO/temp
+cp -rf -- $PTERO/temp/pterodactyl/* $PTERO
 rm -rf $PTERO/temp
 }
 
@@ -189,12 +189,11 @@ print "Producing panel..."
 print_warning "This process takes a few minutes, please do not cancel it."
 
 if [ -d "$PTERO/node_modules" ]; then
-    yarn --cwd $PTERO add @emotion/react
+    yarn --cwd $PTERO
     yarn --cwd $PTERO build:production
   else
     npm i -g yarn
     yarn --cwd $PTERO install
-    yarn --cwd $PTERO add @emotion/react
     yarn --cwd $PTERO build:production
 fi
 }
@@ -202,7 +201,7 @@ fi
 bye() {
 print_brake 50
 echo
-echo -e "${GREEN}* The theme ${YELLOW}Ohlx${GREEN} was successfully installed."
+echo -e "${GREEN}* The theme ${YELLOW}OHLX${GREEN} was successfully installed."
 echo -e "* A security backup of your panel has been created."
 echo -e "* Thank you for using this script."
 echo -e "* Support group: ${YELLOW}$(hyperlink "$SUPPORT_LINK")${RESET}"
