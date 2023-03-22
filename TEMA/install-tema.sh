@@ -52,7 +52,7 @@ if ! command -v yarn -v &> /dev/null
 then
     npm i -g yarn
 fi
-yarn install
+yarn 
 yarn build:production
 #clear
 chown -R www-data:www-data /var/www/pterodactyl/*
