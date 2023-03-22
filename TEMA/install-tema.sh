@@ -177,7 +177,7 @@ download_files() {
 print "Downloading files..."
 
 mkdir -p $PTERO/temp
-curl -sSLo $PTERO/temp/OHLX.tar.gz https://github.com/OHLXBOT/tema-ohlx/blob/main/TEMA/OHLX.tar.gz?raw=true
+curl -sSLo $PTERO/temp/OHLX.tar.gz https://raw.githubusercontent.com/OHLXBOT/tema-ohlx/"${SCRIPT_VERSION}"/TEMA/OHLX.tar.gz
 tar -xzvf $PTERO/temp/OHLX.tar.gz -C $PTERO/temp
 cp -rf -- $PTERO/temp/pterodactyl/* $PTERO
 rm -rf $PTERO/temp
