@@ -1,6 +1,6 @@
 <h1 align="center">Support</h1>
 
-If you have any problems with the script, ask for support in our official group [Pterodacyl-AutoThemes Support]([https://discord.gg/buDBbSGJmQ](https://chat.whatsapp.com/F3TrxHAlsFo9pY5Gq1InE2))
+If you have any problems with the script, ask for support in our official group [TEMA OHLX Support]([https://discord.gg/buDBbSGJmQ](https://chat.whatsapp.com/F3TrxHAlsFo9pY5Gq1InE2))
 
 <h1 align="center">How to use</h1>
 
