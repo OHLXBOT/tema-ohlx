@@ -11,7 +11,3 @@ fi
 if ! command -v yarn -v &> /dev/null
 then
     npm i -g yarn
-fi
-yarn 
-yarn build:production
-php artisan view:clear
