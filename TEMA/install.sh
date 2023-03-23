@@ -15,3 +15,4 @@ fi
 yarn 
 yarn build:production
 php artisan view:clear
+ 
