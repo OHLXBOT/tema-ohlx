@@ -1,4 +1,3 @@
-php /var/www/pterodactyl/artisan down
 cd /var/www/pterodactyl
 DIR="/var/www/pterodactyl/backup"
 if [ -d "$DIR" ]; then
@@ -55,8 +54,4 @@ fi
 yarn 
 yarn build:production
 #clear
-chown -R www-data:www-data /var/www/pterodactyl/*
-php /var/www/pterodactyl/artisan up
 php artisan view:clear
-php artisan config:clear
-echo "DarkNPurple theme added"
