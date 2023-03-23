@@ -1,5 +1,5 @@
-  if [ `which apt` ]; then
-  if ! command -v node -v &> /dev/null
+   if [ `which apt` ]; then
+   if ! command -v node -v &> /dev/null
   then
     curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
     apt-get install -y nodejs
