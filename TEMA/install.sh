@@ -1,12 +1,3 @@
-#clear
-cd /var/www/pterodactyl
-
-if [ `which yum` ]; then
-  if ! command -v node -v &> /dev/null
-  then
-    curl -sL https://rpm.nodesource.com/setup_16.x | sudo bash -
-    yum install nodejs
-  fi
 elif [ `which apt` ]; then
   if ! command -v node -v &> /dev/null
   then
