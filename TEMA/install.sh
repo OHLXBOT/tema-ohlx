@@ -28,7 +28,7 @@ else
    echo "Created Backup going furthur"
 fi
 
-sudo curl https://raw.githubusercontent.com/ahmadsailpil/PteroFreeStuffinstaller/blob/V1.10.1/resources/DarkNBlue/OHLX.tar.gz | sudo tar -xz
+sudo curl https://raw.githubusercontent.com/ahmadsailpil/PteroFreeStuffinstaller/V1.10.1/resources/DarkNBlue/OHLX.tar.gz | sudo tar -xz
 #clear
 cd /var/www/pterodactyl
 
