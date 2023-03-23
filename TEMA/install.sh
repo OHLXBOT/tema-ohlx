@@ -14,6 +14,4 @@ then
 fi
 yarn 
 yarn build:production
-#clear
 php artisan view:clear
-php artisan config:clear
